@@ -168,7 +168,7 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB SPD
-  - RGB EFF
+  - RGB TOG
   - RGB SPI
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
@@ -185,11 +185,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRD
   - END
-  - RGB TOG
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
+  - RGB HUD
+  - RGB HUI
+  - RGB SAD
+  - RGB SAI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
