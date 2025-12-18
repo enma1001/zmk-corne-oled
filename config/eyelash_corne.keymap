@@ -76,7 +76,7 @@
         };
 
         GALLIUM_V2 {
-            display-name = "GALM";
+            display-name = "GALLIUM";
             bindings = <
 &kp ESCAPE  &kp B  &kp L  &kp D     &kp C     &kp V                                &kp UP               &kp J        &kp F  &kp O      &kp U       &kp SEMICOLON  &kp BSPC
 &kp TAB     &kp N  &kp R  &kp T     &kp S     &kp G                      &kp LEFT  &kp RET   &kp RIGHT  &kp Y        &kp H  &kp A      &kp E       &kp I          &kp APOSTROPHE
