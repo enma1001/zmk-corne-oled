@@ -84,7 +84,7 @@
                           &kp LALT  &kp LGUI  &lt 2 SPACE                                                                 &lt 3 ENTER  &to 0  &kp RCTRL
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         Fn1 {
