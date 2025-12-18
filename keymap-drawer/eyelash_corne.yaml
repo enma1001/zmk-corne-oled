@@ -47,9 +47,9 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - {t: NUMBER, h: toggle}
+  - {t: GALM, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  NUMBER:
+  GALM:
   - $$mdi:keyboard-esc$$
   - B
   - L
