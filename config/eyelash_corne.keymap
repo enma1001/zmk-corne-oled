@@ -76,7 +76,7 @@
         };
 
         GALLIUM_V2 {
-            display-name = "GALLIUM";
+            display-name = "GALLIUM_V2";
             bindings = <
 &kp ESCAPE  &kp B  &kp L  &kp D     &kp C     &kp V                                &kp UP               &kp J        &kp F  &kp O      &kp U       &kp SEMICOLON  &kp BSPC
 &kp TAB     &kp N  &kp R  &kp T     &kp S     &kp G                      &kp LEFT  &kp RET   &kp RIGHT  &kp Y        &kp H  &kp A      &kp E       &kp I          &kp APOSTROPHE
@@ -88,7 +88,7 @@
         };
 
         Fn1 {
-            display-name = "SYMBOL";
+            display-name = "Fn1";
             bindings = <
 &kp GRAVE     &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5                               &trans          &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0  &kp DELETE
 &kp CAPSLOCK  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &kp PAGE_UP                        &trans  &trans  &trans  &trans        &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RBKT      &kp BACKSLASH
@@ -100,7 +100,7 @@
         };
 
         Fn2 {
-            display-name = "Fn";
+            display-name = "Fn2";
             bindings = <
 &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &trans          &kp F6    &kp F7           &kp F8           &kp F9           &kp F10          &kp DELETE
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp HOME  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI
