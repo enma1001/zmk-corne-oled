@@ -99,7 +99,7 @@ layers:
   - {t: GALLIUM, h: toggle}
   - $$mdi:apple-keyboard-control$$
   STENO:
-  - {t: QWERTY, h: toggle}
+  - {t: GALLIUM, h: toggle}
   - Q
   - W
   - E
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: STENO, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
