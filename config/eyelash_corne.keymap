@@ -67,7 +67,7 @@
             display-name = "GALLIUM";
             bindings = <
 &kp ESCAPE  &kp B  &kp L  &kp D     &kp C     &kp V                                &kp UP               &kp J        &kp F  &kp O      &kp U       &kp SEMICOLON  &kp BSPC
-&kp TAB     &kp N  &kp R  &kp T     &kp S     &kp G                      &kp LEFT  &kp RET   &kp RIGHT  &kp Y        &kp H  &kp A      &kp E       &kp I          &kp APOSTROPHE
+&kp TAB     &kp N  &kp R  &kp T     &kp S     &kp G                      &kp LEFT  &kp RET   &kp RIGHT  &kp Y        &kp H  &kp E      &kp I       &kp A          &kp APOSTROPHE
 &kp LSHFT   &kp X  &kp Q  &kp M     &kp W     &kp Z        &kp C_MUTE              &kp DOWN             &kp K        &kp P  &kp COMMA  &kp PERIOD  &kp SLASH      &kp RSHFT
                           &kp LALT  &kp LGUI  &lt 3 SPACE                                               &lt 3 ENTER  &to 1  &kp RCTRL
             >;
