@@ -111,7 +111,7 @@
 
         Fn2 {
             bindings = <
-&trans  &kp F1        &kp F2          &kp F3        &kp F4        &kp F5                          &trans          &kp F6           &kp F7           &kp F8           &kp F9           &kp F10          &trans
+&trans  &kp F1        &kp F2          &kp F3        &kp F4        &kp F5                          &trans          &kp F6           &kp F7           &kp F8           &kp F9           &kp F10          &kp DELETE
 &trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &trans
 &trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans        &trans            &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &trans
                                       &trans        &trans        &trans                                          &trans           &to 2            &trans
