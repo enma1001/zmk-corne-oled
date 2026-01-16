@@ -58,6 +58,31 @@
             bindings = <&soft_off>;
             key-positions = <1 15 29>;
         };
+
+        Ctrl-Z {
+            bindings = <&kp RC(Z)>;
+            key-positions = <42 29>;
+        };
+
+        Ctrl-X {
+            bindings = <&kp RC(X)>;
+            key-positions = <42 30>;
+        };
+
+        Ctrl-C {
+            bindings = <&kp RC(C)>;
+            key-positions = <42 31>;
+        };
+
+        Ctrl-V {
+            bindings = <&kp RC(V)>;
+            key-positions = <42 32>;
+        };
+
+        Ctrl-A {
+            bindings = <&kp RC(A)>;
+            key-positions = <42 14>;
+        };
     };
 
     keymap {
