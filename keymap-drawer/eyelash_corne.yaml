@@ -162,10 +162,10 @@ layers:
   - '0'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
+  - '&select_ctrl_a'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -177,10 +177,10 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - END
+  - '&undo_ctrl_z'
+  - '&cut_ctrl_x'
+  - '&copy_ctrl_c'
+  - '&paste_ctrl_v'
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
