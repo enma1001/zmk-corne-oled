@@ -64,7 +64,12 @@
         copy_ctrl_c: copy_ctrl_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LCTRL &kp C>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_release>;
 
             label = "COPY_CTRL_C";
         };
@@ -72,7 +77,12 @@
         undo_ctrl_z: undo_ctrl_z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LCTRL &kp Z>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp Z>,
+                <&macro_release>;
 
             label = "UNDO_CTRL_Z";
         };
@@ -80,7 +90,12 @@
         cut_ctrl_x: cut_ctrl_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LCTRL &kp X>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp X>,
+                <&macro_release>;
 
             label = "CUT_CTRL_X";
         };
@@ -88,7 +103,12 @@
         paste_ctrl_v: paste_ctrl_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LCTRL &kp V>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp V>,
+                <&macro_release>;
 
             label = "PASTE_CTRL_V";
         };
@@ -96,7 +116,12 @@
         select_ctrl_a: select_ctrl_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LCTRL &kp A>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp A>,
+                <&macro_release>;
 
             label = "SELECT_CTRL_A";
         };
