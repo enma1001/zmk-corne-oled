@@ -69,7 +69,8 @@
                 <&kp LCTRL>,
                 <&macro_tap>,
                 <&kp C>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LCTRL>;
 
             label = "COPY_CTRL_C";
         };
@@ -82,7 +83,8 @@
                 <&kp LCTRL>,
                 <&macro_tap>,
                 <&kp Z>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LCTRL>;
 
             label = "UNDO_CTRL_Z";
         };
@@ -95,7 +97,8 @@
                 <&kp LCTRL>,
                 <&macro_tap>,
                 <&kp X>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LCTRL>;
 
             label = "CUT_CTRL_X";
         };
@@ -108,7 +111,8 @@
                 <&kp LCTRL>,
                 <&macro_tap>,
                 <&kp V>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LCTRL>;
 
             label = "PASTE_CTRL_V";
         };
@@ -121,7 +125,8 @@
                 <&kp LCTRL>,
                 <&macro_tap>,
                 <&kp A>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LCTRL>;
 
             label = "SELECT_CTRL_A";
         };
