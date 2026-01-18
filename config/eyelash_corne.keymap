@@ -176,7 +176,7 @@
             bindings = <
 &kp GRAVE     &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5                             &mmv MOVE_UP                     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0  &kp DELETE
 &kp CAPSLOCK  &select_ctrl_a  &trans        &trans        &trans         &kp PAGE_UP              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp BSLH      &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RBKT      &trans
-&trans        &undo_ctrl_z    &cut_ctrl_x   &copy_ctrl_c  &paste_ctrl_v  &kp PAGE_DOWN  &trans                    &mmv MOVE_DOWN                   &trans        &trans        &trans        &trans            &trans        &trans
+&trans        &undo_ctrl_z    &cut_ctrl_x   &copy_ctrl_c  &paste_ctrl_v  &kp PAGE_DOWN  &trans                    &mmv MOVE_DOWN                   &kp HOME      &kp END       &trans        &trans            &trans        &trans
                                             &trans        &trans         &trans                                                                    &trans        &trans        &trans
             >;
         };
