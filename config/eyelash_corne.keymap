@@ -138,9 +138,9 @@
         GALLIUM {
             display-name = "GALLIUM";
             bindings = <
-&kp ESCAPE  &kp Q  &kp X  &kp D     &kp W     &kp Z                                &kp UP                      &kp K        &kp F  &kp O      &kp U       &kp SEMICOLON  &kp BSPC
+&kp ESCAPE  &kp Q  &kp X  &kp M     &kp W     &kp Z                                &kp UP                      &kp K        &kp F  &kp O      &kp U       &kp SEMICOLON  &kp BSPC
 &kp TAB     &kp N  &kp R  &kp T     &kp S     &kp G                      &kp LEFT  &kp PRINTSCREEN  &kp RIGHT  &kp Y        &kp H  &kp A      &kp E       &kp I          &kp APOSTROPHE
-&kp LSHFT   &kp B  &kp L  &kp M     &kp C     &kp V        &kp C_MUTE              &kp DOWN                    &kp J        &kp P  &kp COMMA  &kp PERIOD  &kp SLASH      &kp RSHFT
+&kp LSHFT   &kp B  &kp L  &kp D     &kp C     &kp V        &kp C_MUTE              &kp DOWN                    &kp J        &kp P  &kp COMMA  &kp PERIOD  &kp SLASH      &kp RSHFT
                           &kp LALT  &kp LGUI  &lt 3 SPACE                                                      &lt 4 ENTER  &to 1  &kp RCTRL
             >;
 
