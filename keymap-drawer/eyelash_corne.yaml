@@ -4,7 +4,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - Q
   - X
-  - D
+  - M
   - W
   - Z
   - $$mdi:arrow-up-bold$$
@@ -32,7 +32,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - B
   - L
-  - M
+  - D
   - C
   - V
   - $$mdi:volume-off$$
