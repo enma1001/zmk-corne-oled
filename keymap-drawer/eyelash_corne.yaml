@@ -2,13 +2,13 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   GALLIUM:
   - $$mdi:keyboard-esc$$
-  - B
-  - L
+  - Q
+  - X
   - D
-  - C
-  - V
+  - W
+  - Z
   - $$mdi:arrow-up-bold$$
-  - J
+  - K
   - F
   - O
   - U
@@ -30,14 +30,14 @@ layers:
   - I
   - <
   - $$mdi:apple-keyboard-shift$$
-  - X
-  - Q
+  - B
+  - L
   - M
-  - W
-  - Z
+  - C
+  - V
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
-  - K
+  - J
   - P
   - {t: ',', s: <}
   - .
