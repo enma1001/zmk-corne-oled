@@ -1,54 +1,5 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  GALLIUM:
-  - $$mdi:keyboard-esc$$
-  - Q
-  - X
-  - M
-  - W
-  - Z
-  - $$mdi:arrow-up-bold$$
-  - K
-  - F
-  - O
-  - U
-  - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - N
-  - R
-  - T
-  - S
-  - G
-  - $$mdi:arrow-left-bold$$
-  - PRINTSCREEN
-  - $$mdi:arrow-right-bold$$
-  - Y
-  - H
-  - A
-  - E
-  - I
-  - <
-  - $$mdi:apple-keyboard-shift$$
-  - B
-  - L
-  - D
-  - C
-  - V
-  - $$mdi:volume-off$$
-  - $$mdi:arrow-down-bold$$
-  - J
-  - P
-  - {t: ',', s: <}
-  - .
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
-  - LGUI
-  - {t: '$$mdi:keyboard-space$$', h: Fn1}
-  - {t: '$$mdi:keyboard-return$$', h: Fn2}
-  - {t: QWERTY, h: toggle}
-  - $$mdi:apple-keyboard-control$$
   QWERTY:
   - $$mdi:keyboard-esc$$
   - Q
@@ -96,10 +47,10 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: Fn1}
   - {t: '$$mdi:keyboard-return$$', h: Fn2}
-  - {t: GALLIUM, h: toggle}
+  - {t: STENO, h: toggle}
   - $$mdi:apple-keyboard-control$$
   STENO:
-  - {t: GALLIUM, h: toggle}
+  - {t: QWERTY, h: toggle}
   - Q
   - W
   - E
@@ -162,10 +113,10 @@ layers:
   - '0'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
-  - '&select_ctrl_a'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
   - PgUp
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -177,15 +128,15 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&undo_ctrl_z'
-  - '&cut_ctrl_x'
-  - '&copy_ctrl_c'
-  - '&paste_ctrl_v'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - END
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - HOME
-  - END
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -203,7 +154,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
   - F8
@@ -216,9 +167,9 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB EFF
   - RGB HUD
   - RGB HUI
@@ -232,7 +183,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB TOG
   - RGB BRD
   - RGB BRI
@@ -243,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: STENO, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
