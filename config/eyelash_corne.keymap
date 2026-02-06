@@ -63,13 +63,25 @@
     keymap {
         compatible = "zmk,keymap";
 
+        GALLIUM {
+            bindings = <
+&kp ESC    &kp Q  &kp X  &kp M     &kp W     &kp Z                                      &kp UP_ARROW                      &kp J        &kp F  &kp O      &kp U    &kp SEMI  &kp BSPC
+&kp TAB    &kp N  &kp R  &kp T     &kp S     &kp G                      &kp LEFT_ARROW  &kp PRINTSCREEN  &kp RIGHT_ARROW  &kp Y        &kp H  &kp A      &kp E    &kp I     &kp APOS
+&kp LSHFT  &kp B  &kp L  &kp D     &kp C     &kp V        &kp K_MUTE                    &kp DOWN_ARROW                    &kp K        &kp P  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                         &kp LALT  &kp LGUI  &lt 3 SPACE                                                                  &lt 4 ENTER  &to 1  &kp RCTRL
+            >;
+
+            label = "GALLIUM";
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
         QWERTY {
             display-name = "QWERTY";
             bindings = <
 &kp ESCAPE  &kp Q  &kp W  &kp E     &kp R     &kp T                                &kp UP                      &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp TAB     &kp A  &kp S  &kp D     &kp F     &kp G                      &kp LEFT  &kp PRINTSCREEN  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT   &kp Z  &kp X  &kp C     &kp V     &kp B        &kp C_MUTE              &kp DOWN                    &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                          &kp LALT  &kp LGUI  &lt 2 SPACE                                                      &lt 3 ENTER  &to 1  &kp RCTRL
+                          &kp LALT  &kp LGUI  &lt 3 SPACE                                                      &lt 4 ENTER  &to 2  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -92,17 +104,17 @@
             bindings = <
 &kp GRAVE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                             &mmv MOVE_UP                     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0  &kp DELETE
 &kp CAPSLOCK  &trans        &trans        &trans        &kp HOME      &kp PAGE_UP              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp BSLH      &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RBKT      &trans
-&trans        &trans        &trans        &trans        &kp END       &kp PAGE_DOWN  &trans                    &mmv MOVE_DOWN                   &trans        &trans        &trans        &trans            &trans        &trans
+&trans        &trans        &trans        &trans        &kp END       &kp PAGE_DOWN  &trans                    &mmv MOVE_DOWN                   &mkp LCLK     &mkp RCLK     &trans        &trans            &trans        &trans
                                           &trans        &trans        &trans                                                                    &trans        &trans        &trans
             >;
         };
 
         Fn2 {
             bindings = <
-&trans  &kp F1        &kp F2          &kp F3        &kp F4        &kp F5                                  &mmv MOVE_UP                     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10          &kp DELETE
-&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &trans
-&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans        &trans                    &mmv MOVE_DOWN                   &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &trans
-                                      &trans        &trans        &trans                                                                   &trans           &trans           &trans
+&trans  &kp F1        &kp F2          &kp F3        &kp F4        &kp F5                          &trans          &kp F6           &kp F7           &kp F8           &kp F9           &kp F10          &kp DELETE
+&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &trans
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans        &trans            &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &trans
+                                      &trans        &trans        &trans                                          &trans           &tog 2           &trans
             >;
 
             label = "Fn2";
