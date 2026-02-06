@@ -96,7 +96,7 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: Fn1}
   - {t: '$$mdi:keyboard-return$$', h: Fn2}
-  - {t: STENO, h: toggle}
+  - {t: GALLIUM, h: toggle}
   - $$mdi:apple-keyboard-control$$
   STENO:
   - {t: GALLIUM, h: toggle}
